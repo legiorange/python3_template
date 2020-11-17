@@ -4,12 +4,15 @@
 for test
 
 #### 安装与启动方法
+```
+    virtualenv .venv
+    #linux
+    source .venv/bin/activate
+    #Windows(cmd)
+    .venv\Scripts\activate.bat
+    (.venv)$pip install .
 
-virtualenv .venv
-source .venv/bin/activate
-(.venv)$pip install .
-
-
+```
 
 ### 工具版本
 ---
