@@ -20,7 +20,9 @@ for test  and some icon
 | python  | 3.x |
 | pip  | 1.5.6 |
 | virtualenv  | 1.11.6 |
- 
+|    |  
+
+
 ### 0x02 开发流程
 
 用于开发的安装
@@ -45,7 +47,13 @@ Create requiments.txt:
 
 Python setup.py bdist_wheel_制作用于wheel发布的程序包
 
+
+
 ```
+
+
+
+
 ### 0x03 Model List()
 |  Mod_Name   | Remark |
 |  ----  | ----  |
