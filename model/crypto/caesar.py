@@ -2,6 +2,12 @@ from json.tool import main
 import re
 from string import ascii_uppercase
 
+# 加密代换：
+# c = Ekey(m)  ≡ a, + key(mod 26) 0≤m≤25
+
+#         解密代换：
+# m = Dkey(c) ≡ c - key(mod 26) 0≤m≤25
+
 
 def caesarHacker(message, SourceCode=ascii_uppercase):
     r_lst = []
@@ -26,6 +32,5 @@ def caesarHacker(message, SourceCode=ascii_uppercase):
     return r_lst
 
 
-caesarHacker("GRWHI3RUKJGTK2JT")
-
-
+stra = "Ebgbp uto xiooynu sy fkpp qjoy sqe xcuc dioozhg cz gwms njke sqe uoud hupd ei rsne vrpg hbzg ayfl fbpuoc lhf rfa vrpg hyc lgkw! Znkr cu BRVEDQ{S0w_wf3n_d3_wj_Z1t3d} Olgkx qjke sqe hupd ei fbpuo;qz qjocy ayf qcxe nq qz;vg gsuv izo ykyn vy my,donuwcp sqe suxo zhni zhg vtzg kyx qxp wjkywg dz xq kwf vrp njsyau izo ykyn vy oi."
+caesarHacker(stra)
